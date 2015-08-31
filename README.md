@@ -1,4 +1,4 @@
-OSX Cider Bootstrap Files
+# OSX Cider Bootstrap Files
 
 [Cider](https://github.com/msanders/cider) is a simple wrapper for [Homebrew](http://brew.sh) and [Homebrew Cask](http://caskroom.io). We use Cider to automate the process of installing a standard set of applications and utilities on our OSX Laptops. e.g. Google Chrome, Firefox, iTerm2, virtualbox and vagrant, dropbox, Oracle Java, CLI tools like GnuPG, Go, curl etc. 
 
@@ -12,10 +12,10 @@ Install the Apple xcode command line tools: [Download](https://developer.apple.c
     $ sudo pip install -U cider
 
 ## Clone this repo
-    git clone https://github.com/awakenetworks/dotfiles ~/.cider
+    $ git clone https://github.com/awakenetworks/dotfiles ~/.cider
     
 ## Bootstrap your laptop
-    cider restore
+    $ cider restore
     
 ## Change whats installed
 1. Fork the [awakenetworks/dotfiles](https://github.com/awakenetworks/dotfiles) repo on github.com
