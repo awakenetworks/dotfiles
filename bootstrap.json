@@ -1,7 +1,6 @@
 {
     "after-scripts": [
-        "brew linkapps",
-        "./scripts/httpie.sh"
+        "brew linkapps"
     ],
     "casks": [
         "dropbox",
@@ -19,6 +18,7 @@
     ],
     "formulas": [
         "ack",
+        "ansible",
         "autoconf",
         "automake",
         "bash-completion",
@@ -29,6 +29,7 @@
         "git",
         "glib",
         "gnupg",
+        "httpie",
         "nmap",
         "openssl",
         "optipng",
@@ -50,14 +51,7 @@
         "zopfli",
         "zsh"
     ],
-    "symlinks": {
-        "git/.*": "~",
-        "gvimrc/.*": "~",
-        "tmux/.*": "~",
-        "vim/.*": "~",
-        "vimrc/.*": "~",
-        "zshrc/.*": "~"
-    },
+    "symlinks": {},
     "taps": [
         "caskroom/cask"
     ]
